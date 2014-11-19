@@ -36,6 +36,8 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die();
 }
 
+include_once __DIR__ . '/SyntaxHighlight_GeSHi.langs.php';
+
 $wgExtensionCredits['parserhook']['SyntaxHighlight_GeSHi'] = array(
 	'path'           => __FILE__,
 	'name'           => 'SyntaxHighlight',
